@@ -33,9 +33,7 @@ import history_manager
 import exporter
 
 
-API_KEY = "91ac756381854489d2d6937d2778a830"
-
-API_KEY = os.environ.get("OWM_API_KEY", API_KEY)
+API_KEY = os.environ.get("OWM_API_KEY", "")
 
 LOG_DIR  = "logs"
 LOG_FILE = os.path.join(LOG_DIR, "app.log")
