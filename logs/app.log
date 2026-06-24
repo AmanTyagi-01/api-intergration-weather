@@ -1,0 +1,47 @@
+2026-06-20 19:49:20  [INFO    ]  __main__  –  Weather Intelligence Dashboard started.
+2026-06-20 19:49:20  [CRITICAL]  __main__  –  Application started without a valid API key.
+2026-06-20 19:56:04  [INFO    ]  __main__  –  Weather Intelligence Dashboard started.
+2026-06-20 19:56:04  [CRITICAL]  __main__  –  Application started without a valid API key.
+2026-06-20 19:59:12  [INFO    ]  __main__  –  Weather Intelligence Dashboard started.
+2026-06-20 19:59:12  [INFO    ]  __main__  –  API key validation passed.
+2026-06-20 19:59:21  [INFO    ]  __main__  –  User initiated search for city: 'agra'
+2026-06-20 19:59:21  [INFO    ]  weather_api  –  Requesting weather data for city: 'agra'
+2026-06-20 19:59:21  [DEBUG   ]  urllib3.connectionpool  –  Starting new HTTPS connection (1): api.openweathermap.org:443
+2026-06-20 19:59:22  [DEBUG   ]  urllib3.connectionpool  –  https://api.openweathermap.org:443 "GET /data/2.5/weather?q=agra&appid=f8352bdcc3ed3deb98c271dd1eafc89a&units=metric HTTP/1.1" 401 108
+2026-06-20 19:59:22  [ERROR   ]  weather_api  –  HTTP 401 for city 'agra': ❌  Invalid API key. Please check your OpenWeatherMap API key.
+2026-06-20 19:59:22  [WARNING ]  __main__  –  Search returned no data for city: 'agra'
+2026-06-20 20:00:52  [INFO    ]  __main__  –  Application interrupted by user (Ctrl+C).
+2026-06-20 20:01:03  [INFO    ]  __main__  –  Weather Intelligence Dashboard started.
+2026-06-20 20:01:03  [INFO    ]  __main__  –  API key validation passed.
+2026-06-20 20:01:44  [INFO    ]  __main__  –  User initiated search for city: 'delhi'
+2026-06-20 20:01:44  [INFO    ]  weather_api  –  Requesting weather data for city: 'delhi'
+2026-06-20 20:01:44  [DEBUG   ]  urllib3.connectionpool  –  Starting new HTTPS connection (1): api.openweathermap.org:443
+2026-06-20 20:01:46  [DEBUG   ]  urllib3.connectionpool  –  https://api.openweathermap.org:443 "GET /data/2.5/weather?q=delhi&appid=f8352bdcc3ed3deb98c271dd1eafc89a&units=metric HTTP/1.1" 401 108
+2026-06-20 20:01:46  [ERROR   ]  weather_api  –  HTTP 401 for city 'delhi': ❌  Invalid API key. Please check your OpenWeatherMap API key.
+2026-06-20 20:01:46  [WARNING ]  __main__  –  Search returned no data for city: 'delhi'
+2026-06-20 20:04:53  [INFO    ]  __main__  –  Application interrupted by user (Ctrl+C).
+2026-06-20 20:12:28  [INFO    ]  __main__  –  Weather Intelligence Dashboard started.
+2026-06-20 20:12:28  [INFO    ]  __main__  –  API key validation passed.
+2026-06-20 20:12:33  [INFO    ]  __main__  –  User initiated search for city: 'delhi'
+2026-06-20 20:12:33  [INFO    ]  weather_api  –  Requesting weather data for city: 'delhi'
+2026-06-20 20:12:33  [DEBUG   ]  urllib3.connectionpool  –  Starting new HTTPS connection (1): api.openweathermap.org:443
+2026-06-20 20:12:34  [DEBUG   ]  urllib3.connectionpool  –  https://api.openweathermap.org:443 "GET /data/2.5/weather?q=delhi&appid=91ac756381854489d2d6937d2778a830&units=metric HTTP/1.1" 401 108
+2026-06-20 20:12:34  [ERROR   ]  weather_api  –  HTTP 401 for city 'delhi': ❌  Invalid API key. Please check your OpenWeatherMap API key.
+2026-06-20 20:12:34  [WARNING ]  __main__  –  Search returned no data for city: 'delhi'
+2026-06-24 13:02:36  [INFO    ]  __main__  –  Weather Intelligence Dashboard started.
+2026-06-24 13:03:58  [INFO    ]  __main__  –  Weather Intelligence Dashboard started.
+2026-06-24 13:03:58  [INFO    ]  __main__  –  API key validation passed.
+2026-06-24 13:04:53  [INFO    ]  __main__  –  User initiated search for city: 'London'
+2026-06-24 13:04:53  [INFO    ]  weather_api  –  Requesting weather data for city: 'London'
+2026-06-24 13:04:53  [DEBUG   ]  urllib3.connectionpool  –  Starting new HTTPS connection (1): api.openweathermap.org:443
+2026-06-24 13:04:54  [DEBUG   ]  urllib3.connectionpool  –  https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&appid=91ac756381854489d2d6937d2778a830&units=metric HTTP/1.1" 200 512
+2026-06-24 13:04:54  [INFO    ]  weather_api  –  Successfully fetched weather for 'London' (status code: 200)
+2026-06-24 13:05:01  [INFO    ]  exporter  –  Created new CSV export file with header row.
+2026-06-24 13:05:01  [INFO    ]  exporter  –  Exported 'London' data to CSV: data\weather_export.csv
+2026-06-24 13:05:01  [INFO    ]  exporter  –  Exported 'London' data to JSON: data\weather_export.json
+2026-06-24 13:05:01  [DEBUG   ]  history_manager  –  History file not found; returning empty list.
+2026-06-24 13:05:01  [INFO    ]  history_manager  –  Saved search #1 for 'London' to history.
+2026-06-24 13:05:27  [INFO    ]  __main__  –  Weather Intelligence Dashboard exited by user.
+2026-06-24 13:24:38  [INFO    ]  __main__  –  Weather Intelligence Dashboard started.
+2026-06-24 13:24:39  [INFO    ]  __main__  –  API key validation passed.
+2026-06-24 13:24:42  [INFO    ]  __main__  –  Application interrupted by user (Ctrl+C).
