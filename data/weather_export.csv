@@ -1,2 +1,0 @@
-exported_at,city,country,latitude,longitude,temperature,feels_like,temp_min,temp_max,humidity,pressure,visibility_km,wind_speed,wind_direction,wind_gust,rain_1h,snow_1h,condition,description,cloud_cover,sunrise,sunset,fetched_at
-2026-06-24 13:05:01,London,GB,51.5085,-0.1257,26.1,26.1,24.3,27.8,75,1017,10.0,1.34,NE,3.58,0.0,0.0,Clear,Clear Sky,0,04:43 AM,09:21 PM,2026-06-24 13:04:54
